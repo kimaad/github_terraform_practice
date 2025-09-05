@@ -85,7 +85,6 @@ resource "azurerm_public_ip" "main" {
   location            = azurerm_resource_group.main.location
   allocation_method   = "Static"
   tags                = var.common_tags
-
 }
 
 resource "azurerm_network_interface" "main" {
